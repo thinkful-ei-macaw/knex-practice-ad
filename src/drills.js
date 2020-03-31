@@ -17,7 +17,7 @@ function searchByItemName(searchTerm) {
     });
 }
 
-searchByItemName('urger');
+searchByItemName('burger');
 
 function paginateItems(page) {
   const limit = 6;
