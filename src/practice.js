@@ -16,6 +16,8 @@ const qry = knexInstance
   // .then(result => {
   //   console.log(result);
   // });
+console.log(qry);
+  
   
 
 function searchByProductName(searchTerm) {
@@ -54,11 +56,11 @@ function getProductsWithImages() {
     .from('amazong_products')
     .whereNotNull('image')
     .then(result => {
-      console.log(result)
-    })
+      console.log(result);
+    });
 }
 
-getProductsWithImages()
+getProductsWithImages();
 
 
 // getProductsWithImages()
