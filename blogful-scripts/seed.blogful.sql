@@ -1,6 +1,6 @@
 BEGIN;
 
-INSERT INTO blogful (title, content, date_published)
+INSERT INTO blogful_articles (title, content, date_published)
 VALUES 
   ('Dog Days', 'Cuddle party sharing Whole Earth Catalog vitamix prius, Big Sur tripping on. With the dolphins seventh generation midwifery, rolfing embodied Harbin closing circle leave no trace. Didgeridoo jasmine candida cleanse rediscovery Namaste.',  now() - '23 days'::INTERVAL),
   ('Endless Summer', 'Prayerformance double rainbow tofu, diva cup continuum. Tapping biomat nag champa, ecstatic dance reflexology float tank. Phish human potential peacock feather what the planet really needs.', now() - '22 days'::INTERVAL),
